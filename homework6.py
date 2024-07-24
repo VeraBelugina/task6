@@ -4,7 +4,7 @@ print(my_dict['Гога'])
 print(my_dict.get('Катерина'))
 my_dict.update({'Гора': 1962, 'Жора': 1977})
 print(my_dict)
-del my_dict['Юрий']
+my_dict.pop('Юрий')
 print(my_dict)
 my_set = {9, 3, 5, 3, 'pop', 3.5, False, 'pop'}
 print(my_set)
